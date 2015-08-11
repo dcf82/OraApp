@@ -17,4 +17,3 @@ The app has the following features:
 - GSON to automate JSON parsing
 - Dependency Injection with Butter Knife
 - and more...
-- 
