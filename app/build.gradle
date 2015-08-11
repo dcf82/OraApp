@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.imagination.technologies.ora.app"
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+
+    packagingOptions {
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
+}
+
+repositories {
+    flatDir { dirs 'libs' }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    // AppCompat Libraries
+    compile 'com.android.support:appcompat-v7:22.2.0'
+
+    // Recycler View
+    compile 'com.android.support:recyclerview-v7:22.0.+'
+
+    // Dependency Injection
+    compile 'com.jakewharton:butterknife:7.0.1'
+
+    // GreenDAO
+    compile 'de.greenrobot:greendao:1.3.7'
+
+    // okHttp
+    compile 'com.squareup.okhttp:okhttp:2.4.0'
+
+    // Gson
+    compile 'com.google.code.gson:gson:2.2.4'
+
+    // Event Bus with greenRobot
+    compile 'de.greenrobot:eventbus:2.4.0'
+
+    // Event Bus with Otto
+    compile 'com.squareup:otto:1.3.8'
+
+    // Visa Library
+    compile(name:'VisaCheckout-Android-SDK-2.9', ext:'aar')
+
+    // Facebook Library
+    compile(name:'facebook-android-sdk-3.23.1', ext:'aar')
+
+    // Bank Library
+    compile(name:'card.io-4.0.2', ext:'aar')
+
+    // V4 Support Library
+    compile 'com.android.support:support-v4:22.2.0'
+}

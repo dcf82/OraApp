@@ -1,0 +1,89 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* jni/
+* jni/.DS_Store
+* jni/jniLibs/
+* jni/jniLibs/.DS_Store
+* jni/jniLibs/arm64-v8a/
+* jni/jniLibs/arm64-v8a/.DS_Store
+* jni/jniLibs/arm64-v8a/libcardioDecider.so
+* jni/jniLibs/armeabi-v7a/
+* jni/jniLibs/armeabi-v7a/libcardioDecider.so
+* jni/jniLibs/armeabi-v7a/libcardioRecognizer.so
+* jni/jniLibs/armeabi-v7a/libcardioRecognizer_tegra2.so
+* jni/jniLibs/armeabi-v7a/libopencv_core.so
+* jni/jniLibs/armeabi-v7a/libopencv_imgproc.so
+* jni/jniLibs/armeabi/
+* jni/jniLibs/armeabi/libcardioDecider.so
+* jni/jniLibs/mips/
+* jni/jniLibs/mips/libcardioDecider.so
+* jni/jniLibs/mips64/
+* jni/jniLibs/mips64/libcardioDecider.so
+* jni/jniLibs/x86/
+* jni/jniLibs/x86/libcardioDecider.so
+* jni/jniLibs/x86_64/
+* jni/jniLibs/x86_64/libcardioDecider.so
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => visaCheckoutLibrary/src/main/AndroidManifest.xml
+* assets/ => visaCheckoutLibrary/src/main/assets/
+* libs/android-volley-1.0.10.jar => visaCheckoutLibrary/libs/android-volley-1.0.10.jar
+* libs/card.io-4.0.2.jar => visaCheckoutLibrary/libs/card.io-4.0.2.jar
+* libs/classes.jar => visaCheckoutLibrary/libs/classes.jar
+* libs/eventbus-2.4.0.jar => visaCheckoutLibrary/libs/eventbus-2.4.0.jar
+* res/ => visaCheckoutLibrary/src/main/res/
+* src/ => visaCheckoutLibrary/src/main/java
+* src/README.md => visaCheckoutLibrary/src/main/resources/README.md
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

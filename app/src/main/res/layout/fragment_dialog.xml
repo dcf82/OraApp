@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@android:color/transparent">
+
+    <View
+        android:layout_width="0dip"
+        android:layout_height="0dp"
+        android:layout_weight="10"/>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="80"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/rounded_gray">
+
+        <TextView
+            android:id="@+id/title"
+            android:text="Write the name of the new chat room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:hint="Type here" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/ok"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:padding="@dimen/base_padding2x"
+                android:background="@color/pink"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:padding="@dimen/base_padding2x"
+                android:background="@color/pink"
+                android:gravity="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dip"
+        android:layout_height="0dp"
+        android:layout_weight="10"/>
+
+</LinearLayout>

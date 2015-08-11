@@ -1,0 +1,28 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.imagination.technologies.ora.app.views.MyRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/empty_textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|left"
+        android:text="This final part of the test involves 1) Creating a ListView with reusable list items,
+2) Creating a Service to obtain data,
+3) Hitting a simple JSON network service to provide the data and sending a broadcast when data is ready, and
+4) Binding to the service to provide an API that will update the data. Try to approach this in steps.
+Start by getting placeholder data to display in the ListView before moving on to the Service, and eventually
+JSON parsing.  Also, for your list items, please provide a simple layout with at least 2 TextViews (the part3_listview_item.xml
+is already in place for you to edit). Please refer
+to the 'TODO' comments in source code for further guidance."
+        android:visibility="gone"
+        android:textColor="@color/light_black"/>
+
+</RelativeLayout>

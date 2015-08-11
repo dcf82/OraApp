@@ -1,0 +1,48 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/emailAccount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="@dimen/field_margin"
+            android:background="@drawable/field_bk"
+            android:hint="@string/emailHint"
+            android:padding="@dimen/base_padding1x"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/mailPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="@dimen/field_margin"
+            android:background="@drawable/field_bk"
+            android:hint="@string/passwordHint"
+            android:padding="@dimen/base_padding1x"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/black"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/sign"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="@dimen/field_margin"
+            android:gravity="center"
+            android:background="@color/pink"
+            android:text="@string/signInButton"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray" />
+
+    </LinearLayout>
+
+</ScrollView>

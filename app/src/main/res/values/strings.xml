@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Ora App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_exit">Exit</string>
+    <string name="instachat">Imagination Chat</string>
+    <string name="signIn">SIGN IN</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="emailHint">Enter your Email</string>
+    <string name="passwordHint">Enter Password</string>
+    <string name="firstNameHint">First Name</string>
+    <string name="lastNameHint">Last Name</string>
+    <string name="createPasswordHint">Create Password</string>
+    <string name="confirmPasswordHint">Confirm Password</string>
+    <string name="account">Account</string>
+    <string name="my_profile">My Profile</string>
+    <string name="log_out">Log Out</string>
+    <string name="home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="myProfile">My Profile</string>
+    <string name="email_profile">Email Address</string>
+    <string name="password_profile">Password</string>
+    <string name="signUpButton">Sign Up</string>
+    <string name="signInButton">Sign In</string>
+    <string name="updateAccountButton">Update Account</string>
+    <string name="oSignIn">Sign In</string>
+    <string name="oSignUp">Sign Up</string>
+    <string name="oMyLocations">My Locations</string>
+    <string name="locatorProvider">Locator Provider</string>
+    <string name="visaCheckout">Visa Checkout</string>
+    <string name="typeMessage">Type your message</string>
+    <string name="empty"></string>
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="write_name">Please write the name of chat</string>
+    <string name="locations">"http://gomashup.com/json.php?fds=geo/usa/zipcode/state/IL"</string>
+    <string name="move_location">Move Location</string>
+    <string name="clear_location">Clear History</string>
+    <string name="facebook_app_id">495819860548463</string>
+    <string name="match_parent">match_parent</string>
+    <string name="wrap_content">wrap_content</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">280dp</dimen>
+    <dimen name="field_margin">10dp</dimen>
+    <dimen name="base_padding1x">8dp</dimen>
+    <dimen name="base_padding2x">12dp</dimen>
+    <dimen name="base_padding3x">20dp</dimen>
+    <dimen name="holo_gap">8dp</dimen>
+</resources>

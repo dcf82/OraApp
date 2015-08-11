@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="60dip"
+        android:layout_height="60dp"
+        android:background="@null"
+        android:src="@drawable/ic_action_user" />
+
+    <TextView
+        android:id="@+id/chatRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat Room 1"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_centerVertical="true"
+        android:textColor="@color/light_black"
+        android:textStyle="bold" />
+
+</RelativeLayout>

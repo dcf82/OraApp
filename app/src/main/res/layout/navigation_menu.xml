@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/alpha_pink"
+        android:padding="@dimen/base_padding2x">
+
+        <ImageView
+            android:id="@+id/myPhoto"
+            android:layout_width="60dp"
+            android:layout_height="60dip"
+            android:background="@null"
+            android:src="@drawable/ic_action_user" />
+
+        <TextView
+            android:id="@+id/myName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Me"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/base_padding2x"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/options"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:divider="@color/gray"
+        android:dividerHeight="1dip"
+        android:fadingEdge="none"
+        android:layout_weight="1"
+        android:cacheColorHint="@android:color/transparent"
+        android:descendantFocusability="afterDescendants"
+        android:background="@color/white" />
+
+</LinearLayout>
